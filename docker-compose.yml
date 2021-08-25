@@ -1,8 +1,7 @@
 services:
-
   elasticsearch:
     container_name: "elasticsearch"
-    image: elasticsearch:7.5.2
+    image: elasticsearch:7.12.1
     ports:
       - 9200:9200
       - 9300:9300
@@ -14,4 +13,3 @@ services:
     image: redis:latest
     ports:
       - 6379:6379
-
